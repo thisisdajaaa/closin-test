@@ -1,0 +1,111 @@
+.marketplaceItem {
+  background-color: var(--color-black);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.marketplaceItemHeader {
+  position: relative;
+  overflow: hidden;
+}
+
+.marketplaceItemStatus {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  display: flex;
+  background-color: var(--color-white);
+  padding: 4px 14px;
+  border-radius: 10px;
+}
+
+.marketplaceItemStatus span {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 9px;
+  color: var(--color-primary);
+}
+
+.marketplaceItemHeader img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.marketplaceItemContent h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 4px 0;
+}
+
+.itemAddress {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.marketplaceItemProgress {
+  margin-bottom: 14px;
+}
+
+.marketplaceItemProgress progress {
+  height: 2px;
+  width: 99%;
+  border: none;
+}
+
+.marketplaceItemProgress progress::-webkit-progress-value {
+  background-color: var(--color-secondary);
+}
+
+.progressDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  color: var(--color-subtle);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.marketplaceItemEstimates {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 24px;
+  padding-inline: 8px;
+}
+
+.estimateWithBorder {
+  border-right: 1px solid var(--color-content);
+}
+
+.estimate:last-child {
+  place-self: center;
+  margin-left: 32px;
+}
+
+.estimateTitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.estimateTitle p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--color-secondary);
+}
+
+.marketplaceItemFooter {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 360px) {
+  .marketplaceItem {
+    padding: 8px;
+  }
+}

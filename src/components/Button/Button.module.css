@@ -1,0 +1,41 @@
+.btnBase {
+  display: flex;
+  padding: 12px 44px;
+  border: none;
+  outline: none;
+  background-color: var(--color-secondary);
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.btnLink {
+  text-decoration: none;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  gap: 24px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btnIcon {
+  color: #f5f5f5;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  height: 45px;
+  padding-inline: 30px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 1px solid var(--color-secondary);
+}

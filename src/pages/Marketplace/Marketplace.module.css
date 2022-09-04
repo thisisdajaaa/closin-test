@@ -1,0 +1,38 @@
+.marketplace {
+  height: 100vh;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 48px 36px;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.marketplaceTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 0;
+}
+
+.marketplaceItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 1054px) {
+  .marketplace {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .marketplace {
+    padding: 48px 12px;
+  }
+}

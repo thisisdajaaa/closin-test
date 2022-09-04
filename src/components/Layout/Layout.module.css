@@ -1,0 +1,9 @@
+.layout {
+  padding: 0px 0px 0px 260px;
+}
+
+@media only screen and (max-width: 767px) {
+  .layout {
+    padding: 0px;
+  }
+}
