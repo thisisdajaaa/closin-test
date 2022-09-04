@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path="/" exact element={<Home />} />
+            <Route index element={<Home />} />
             <Route path="/marketplace" exact element={<Marketplace />} />
           </Routes>
         </Layout>
